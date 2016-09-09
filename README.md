@@ -1,9 +1,9 @@
-# CRC Cycle Verification Process
-This will highlight some key features for the CRC verification process demo using the [Drupal CMS](https://www.drupal.org).
+# CRS Cycle Verification Process
+This will highlight some key features for the CRS verification process demo using the [Drupal CMS](https://www.drupal.org).
 ## Administrator Dashboard
 The administrator dashboard will consist of the main functions necessary to create new communities, edit the template for the communities, view current or archived communities. A rough wireframe below with further descriptions of each section to follow.  
 * * *
-![Dashboard](report/crc-admin.png)
+![Dashboard](report/crs-admin.png)
 * * *
 - **Create Community**  
 This is a field that you will put in the community's name and hit the 'create community' button and from there create a role, category, and the nodes (content) for that community will be generated. The role can be given to a member of that community which will give them access to their own dashboard and give them the ability to edit all of the nodes created earlier. This will force the correct order as specified in the template.
@@ -15,7 +15,7 @@ Two lists consisting of both Current and Archived communities with the most rece
 ## Community Dashboard
 Rough wireframe below with further detail to follow.  
 * * *
-![Dashboard](report/crc-community.png)
+![Dashboard](report/crs-community.png)
 * * *
 - **CRS Review**  
 The community dashboard will consist of a list of activities to be filled out separated by main activity. The last filled out activity will be dropped down while all other activities will be collapsed. Main activities that are ahead of what the user has filled out will be greyed out and won't be expandable, while any activities behind the user's point can be expanded or collapsed. Any sub-activity that is ahead of the user's position will also be greyed out with no ability to view or edit. Though any sub-activity that is behind their current position can be viewed or edited.
